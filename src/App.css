@@ -1,0 +1,54 @@
+.calcContainer {
+  max-width: 80vh;
+  min-height: 80vh;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 2fr 6fr;
+  background: #090909;
+  padding: 5px;
+  border-radius: 15px;
+  font-family: cursive;
+}
+.calcDisplay {
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  color: #ddd;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.calcButtonContainer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: .4%;
+}
+.calcButton {
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-family: cursive;
+  font-size: 15px;
+}
+.sign, .clearAndDelete {
+  background-color: #666;
+  color: #ddd;
+}
+.number {
+  background-color: #ddd;
+  color: #333;
+}
+.equals {
+  background-color: #262626;
+  color: #ddd;
+  grid-column: 4 / -1;
+  font-size: 20px;
+}

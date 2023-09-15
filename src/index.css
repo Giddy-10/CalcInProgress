@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: auto;
+}
+html {
+  background: linear-gradient(135deg, hsl(150, 20%, 5%)10%, hsl(150, 20%, 10%)80%, hsl(150, 25%, 20%));
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#root {
+  width: 95vw;
+  height: 95vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

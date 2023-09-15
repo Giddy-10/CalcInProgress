@@ -1,0 +1,33 @@
+const calcButtonsData = [
+    {id: 'factoral', data: 7, display: '!', type: 'sign'},
+    {id: 'squareroot', data: 7, display: 'sqrt', type: 'sign'},
+    {id: 'square', data: 7, display: '^2', type: 'sign'},
+    {id: 'logarithmOf2', data: 7, display: 'log2', type: 'sign'},
+    {id: 'logarithmOf10', data: 7, display: 'log10', type: 'sign'},
+    {id: 'percent', data: 7, display: '%', type: 'sign'},
+    {id: 'rootOfN', data: 7, display: 'n root x', type: 'sign'},
+    {id: 'powerOfY', data: 7, display: '^y', type: 'sign'},
+    {id: 'openingBracket', data: 7, display: '(', type: 'sign'},
+    {id: 'closingBracket', data: 7, display: ')', type: 'sign'},
+    {id: 'seven', data: 7, display: 7, type: 'number'},
+    {id: 'eight', data: 8, display: 8, type: 'number'},
+    {id: 'nine', data: 9, display: 9, type: 'number'},
+    {id: 'clear', data: 'clear', display: 'C', type: 'clearAndDelete'},
+    {id: 'delete', data: 'delete', display: 'DEL', type: 'clearAndDelete'},
+    {id: 'four', data: 4, display: 4, type: 'number'},
+    {id: 'five', data: 5, display: 5, type: 'number'},
+    {id: 'six', data: 6, display: 6, type: 'number'},
+    {id: 'multiply', data: '*', display: 'x', type: 'sign'},
+    {id: 'divide', data: '/', display: '÷', type: 'sign'},
+    {id: 'one', data: 1, display: 1, type: 'number'},
+    {id: 'two', data: 2, display: 2, type: 'number'},
+    {id: 'three', data: 3, display: 3, type: 'number'},
+    {id: 'plus', data: '+', display: '+', type: 'sign'},
+    {id: 'subtract', data: '-', display: '-', type: 'sign'},
+    {id: 'zero', data: 0, display: 0, type: 'number'},
+    {id: 'point', data: '.', display: '.', type: 'number'},
+    {id: 'modulus', data: '%', display: 'mod', type: 'sign'},
+    {id: 'equals', data: '=', display: '=', type: 'equals'}
+];
+
+export default calcButtonsData;
